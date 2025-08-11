@@ -10,16 +10,22 @@ public class Main {
 //        MathOperation op = new Addition();
 //        System.out.println(op.operation(2,3));
 
-        MathOperation mul = new MathOperation() {
-            @Override
-            public int operation(int a, int b) {
-                return a * b;
-            }
-        };
+//        MathOperation mul = new MathOperation() {
+//            @Override
+//            public int operation(int a, int b) {
+//                return a * b;
+//            }
+//        };
+//
+//        MathOperation add = Integer::sum;
+//        System.out.println(add.operation(16,12));
+//        System.out.println(mul.operation(12,3));
 
-        MathOperation add = Integer::sum;
-        System.out.println(add.operation(16,12));
-        System.out.println(mul.operation(12,3));
+
+
+
+
+
             }
         }
 

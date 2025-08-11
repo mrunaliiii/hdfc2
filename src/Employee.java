@@ -5,7 +5,23 @@ public class Employee {
     private String Name;
     private static Arrays employees;
     private int salary;
+    private double limit;
 
+    public static Arrays getEmployees() {
+        return employees;
+    }
+
+    public static void setEmployees(Arrays employees) {
+        Employee.employees = employees;
+    }
+
+    public double getLimit() {
+        return limit;
+    }
+
+    public void setLimit(double limit) {
+        this.limit = limit;
+    }
 
     public int getSalary() {
         return salary;
@@ -35,5 +51,15 @@ public class Employee {
 
     public void setName(String name) {
         Name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "Role='" + Role + '\'' +
+                ", Name='" + Name + '\'' +
+                ", salary=" + salary +
+                ", limit=" + limit +
+                '}';
     }
 }
